@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html"><button><b>Beranda</b></button></a></li>
+      <li><button onclick="loadDashboard()"><b>Dashboard</b></button></li>
+      <li><a href="test.html"><button><b>Tes TOEFL</b></button></a></li>
+    </ul>
+  </nav>
+
+  <main id="dashboard-container">
+    <section id="user-info">
+      <h2>Profil Pengguna</h2>
+      <p>Nama: <span id="user-name">Akhsanul</span></p>
+      <p>NIM: <span id="user-NIM">240411100153</span></p>
+      <button onclick="enableProfileEdit()">Edit Profil</button><br>
+      <br>
+      <div id="edit-profile" class="hidden">
+        <input type="text" id="edit-name" placeholder="Nama baru"><br>
+        <br>
+        <input type="text" id="edit-NIM" placeholder="NIM baru"><br>
+        <br>
+        <button onclick="saveProfile()">Simpan</button>
+      </div>
+    </section>
+    <section id="test-history">
+      <h2>Riwayat Tes</h2>
+      <div class="table-container">
+        <table id="test-table">
+          <thead>
+            <tr>
+              <th>Tanggal Tes</th>
+              <th>Listening</th>
+              <th>Structure</th>
+              <th>Reading</th>
+              <th>Total Skor</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="test-body">
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    window.onload = loadDashboard;
+  </script>
+</body>
+</html>

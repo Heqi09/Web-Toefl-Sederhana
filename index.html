@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><button onclick="stayHome()"><b>Beranda</b></button></li>
+      <li><a href="dashboard.html"><button><b>Dashboard</b></button></a></li>
+      <li><a href="test.html"><button><b>Tes TOEFL</b></button></a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <section id="welcome-message">
+      <h2>Selamat Datang</h2>
+      <p>Di TOEFL Online Test</p>
+    </section>
+    <div class="info-container">
+      <div class="info-card">
+        <h3>Listening</h3>
+        <p>Menguji kemampuan memahami percakapan dan ceramah dalam bahasa Inggris.</p>
+      </div>
+      <div class="info-card">
+        <h3>Structure</h3>
+        <p>Menguji kemampuan tata bahasa dan struktur kalimat dalam bahasa Inggris.</p>
+      </div>
+      <div class="info-card">
+        <h3>Reading</h3>
+        <p>Menguji kemampuan membaca dan memahami teks akademik berbahasa Inggris.</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function stayHome() {
+      document.querySelector('main').scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tes TOEFL</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html"><button><b>Beranda</b></button></a></li>
+      <li><a href="dashboard.html"><button><b>Dashboard</b></button></a></li>
+      <li><a href="test.html"><button><b>Tes TOEFL</b></button></a></li>
+    </ul>
+  </nav>
+
+  <main id="test-container">
+    <section id="user-info">
+      <h2>Informasi Pengguna</h2>
+      <p>Nama: <span id="test-username">Guest</span></p>
+      <p>NIM: <span id="test-userNIM">240411100153</span></p>
+      <button id="start-button" onclick="startTest()" disabled>Mulai Tes</button>
+      <br><br>
+    </section>
+
+    <section id="question-section" class="hidden">
+      <h2>Soal TOEFL</h2>
+      <div id="timer">Waktu Tersisa: <span id="time-left">30:00</span></div>
+      <p id="question-type-number"></p>
+      <p id="question-text">Loading soal...</p>
+      <ul id="answer-options" class="answer-list"></ul>
+    </section>
+
+    <div id="navigation-buttons" class="hidden">
+      <button onclick="prevQuestion()">Kembali</button>
+      <button onclick="nextQuestion()">Selanjutnya</button>
+      <button onclick="finishTest()">Selesai</button>
+    </div>
+  </main>
+
+  <section id="score-section" class="hidden">
+    <h2>Hasil Tes</h2>
+    <p>Skor Kamu: <span id="score">0</span></p>
+    <button onclick="printScore()">Cetak PDF</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

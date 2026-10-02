@@ -1,0 +1,519 @@
+{
+  "listening": [
+    {
+      "audio": "audio/listening1.mp3",
+      "options": ["He is leaving now", "He is to go out of his way", "He not be leaving soon", "He will do it his own way"],
+      "correct": "He is leaving now"
+    },
+    {
+      "audio": "audio/listening2.mp3",
+      "options": ["He locked the door", "He tried unsuccessfully to get into the house", "He was able to open the door", "He left the house without locking the door"],
+      "correct": "He was able to open the door"
+    },
+    {
+      "audio": "audio/listening3.mp3",
+      "options": ["She doesn't like to listen to turkeys", "She thinks the dinner sounds special", "She specially likes the roast turkey", "She'd prefer a different dinner"],
+      "correct": "She'd prefer a different dinner"
+    },
+    {
+      "audio": "audio/listening4.mp3",
+      "options": ["He'll be busy with her homework tonight", "He can't help her tonight", "He's sorry he can't ever help her", "He'll help her with her physics"],
+      "correct": "He can't help her tonight"
+    },
+    {
+      "audio": "audio/listening5.mp3",
+      "options": ["Her eyes hurt", "She thought the lecture was great", "The class was boring", "She didn't want to watch Professor Martin"],
+      "correct": "The class was boring"
+    },
+    {
+      "audio": "audio/listening6.mp3",
+      "options": ["Not all the bills have been paid", "They don't have enough credit to pay the bills", "What she said on the phone was not credible", "He used a credit card to pay some of the bills"],
+      "correct": "Not all the bills have been paid"
+    },
+    {
+      "audio": "audio/listening7.mp3",
+      "options": ["She'll call back quickly", "She'll definitely be back by 4:00", "She'll give it back by 4:00", "She'll try to return fast"],
+      "correct": "She'll try to return fast"
+    },
+    {
+      "audio": "audio/listening8.mp3",
+      "options": ["She hasn't seen Tim", "Tim was there only for a moment", "Tim was around a short time ago", "Tim will return in a minute"],
+      "correct": "Tim was around a short time ago"
+    },
+    {
+      "audio": "audio/listening9.mp3",
+      "options": ["She doesn't like the place he chose", "She doesn't want to get into the car", "She's glad the spot is reserved", "He'll help her with her physics"],
+      "correct": "He'll help her with her physics"
+    },
+    {
+      "audio": "audio/listening10.mp3",
+      "options": ["There's plenty to eat", "The refrigerator's broken", "The food isn't in the refrigerator", "He's not sure if there's enough"],
+      "correct": "There's plenty to eat"
+    },
+    {
+      "text": "What are the speakers mainly discussing?",
+      "audio": "audio/listening11-15.mp3",
+      "options": ["Their plans for next semester", "Why the woman can't go to the concert", "Their favorite band", "Finding a tutor"],
+      "correct": "Why the woman can't go to the concert"
+    },
+    {
+      "text": "What will the woman do on Saturday?",
+      "audio": "audio/listening11-15.mp3",
+      "options": ["Teach a class", "Mark tests", "Visit her cousin", "Go to a concert"],
+      "correct": "Mark tests"
+    },
+    {
+      "text": "What does the woman mean when she says this?",
+      "audio": "audio/listening11-15.mp3",
+      "options": ["She thinks he should treat her with more respect", "She plans to teach university", "She thinks Professor Mathers is not kind", "She thinks she'll be as good a teacher as Professor Mathers"],
+      "correct": "She plans to teach university"
+    },
+    {
+      "text": "What can be inferred from the conversation?",
+      "audio": "audio/listening11-15.mp3",
+      "options": ["The woman never works on weekends", "The man and woman take the same courses", "The speakers live in the same dorm", "The man stayed after class for help"],
+      "correct": "The man stayed after class for help"
+    },
+    {
+      "text": "How does the male student feel about the woman's weekend plans?",
+      "audio": "audio/listening11-15.mp3",
+      "options": ["He feels sorry for her", "He is excited for her", "He is worried about her", "He is jealous of her"],
+      "correct": "He feels sorry for her"
+    },
+    {
+      "text": "What is the main topic of the discussion?",
+      "audio": "audio/listening15-20.mp3",
+      "options": ["Harmful televisions", "A landfill concern", "Computer equipment", "Recycling films"],
+      "correct": "A landfill concern"
+    },
+    {
+      "text": "What makes monitors hazardous to the environment?",
+      "audio": "audio/listening15-20.mp3",
+      "options": ["SRTs", "X-rays", "Cathode ray tubes", "Landfills"],
+      "correct": "Cathode ray tubes"
+    },
+    {
+      "text": "According to Lisa, why can't monitors be recycled?",
+      "audio": "audio/listening15-20.mp3",
+      "options": ["They are too expensive to reuse", "There are no companies that provide this service", "People are too lazy to take them to recycling plants", "Companies prefer to store them for future use"],
+      "correct": "There are no companies that provide this service"
+    },
+    {
+      "text": "What does Lisa mean when she says this?",
+      "audio": "audio/listening15-20.mp3",
+      "options": ["Her family has thrown monitors in the garbage", "Her family owns a lot of television sets", "Her family feels bad about how much TV they watch", "Her family doesn't care about the environment"],
+      "correct": "Her family owns a lot of television sets"
+    },
+    {
+      "text": "What will the class do next?",
+      "audio": "audio/listening15-20.mp3",
+      "options": ["Visit a landfill site", "Dissect a computer monitor", "Watch another film", "Review the film about monitors"],
+      "correct": "Watch another film"
+    }
+  ],
+  "structure": [
+    {
+      "text": "_____ range in color from pale yellow to bright orange.",
+      "options": ["Canaries which", "Canaries", "That canaries", "Canaries that are"],
+      "correct": "Canaries"
+    },
+    {
+      "text": "_____ of precious gems is determined by their hardness, color, and brilliance.",
+      "options": ["The valuable", "It is the value", "It is valuable", "w The value"],
+      "correct": " The value"
+    },
+    {
+      "text": "_____ a tornado spins in a counterclockwise direction in the nothern hemisphere, it spins in the opposite direction in the southern hemisphere.",
+      "options": ["However", "Because of", "Although", "That"],
+      "correct": "Although"
+    },
+    {
+      "text": "The Caldecott Medal, _____ for the best childern’s picture book, is awarded each January.",
+      "options": ["a prize", "which prize", "is a prize which", "is a prize"],
+      "correct": "a prize"
+    },
+    {
+      "text": "The horn of the rhinoceros consists of a cone of tight bundles of keratin _____ from the epidermis.",
+      "options": ["grow", "grows", "growing", "they grow"],
+      "correct": "growing"
+    },
+    {
+      "text": "Most species of heliotropes are weeds, _____ of them are cultivated.",
+      "options": ["some", "but some", "for some species", "some species"],
+      "correct": "but some"
+    },
+    {
+      "text": "Thunder occurs as _____ through air, causing the heated air to expand and collide with layers of cooler air.",
+      "options": ["an electrical charge", " passes an electrical charge", "the passing of an electrical charge", "an electrical charge passes"],
+      "correct": "an electrical charge passes"
+    },
+    {
+      "text": "Researchers have long debated _____ Saturn’s moon Titan contains hydrocarbon oceans and lakes.",
+      "options": ["over it", " whether it", " whether", "whether over"],
+      "correct": " whether"
+    },
+    {
+      "text": "Nimbostratus clouds are thick, dark grey clouds _____ forebode rain.",
+      "options": ["what", "which", "what they", "which they"],
+      "correct": "which"
+    },
+    {
+      "text": "_____ in several early civilizations, a cubit was based on the length of the forearm from the tip of the middle finger to the elbow.",
+      "options": ["It was used as a measurement", "A measurement was used", "The use of a measurement", "Used as a measurement"],
+      "correct": "Used as a measurement"
+    },
+    {
+      "text": "Only when air and water seep through its outer coat _____.",
+      "options": ["does a seed germinate", "to the germination of a seed", "a seed germinates", "for a seed to germinate"],
+      "correct": "does a seed germinate"
+    },
+    {
+      "text": "_____ seasonal rainfall, especially in regions near the tropics, is winds that blow in an opposite direction in winter than in summer.",
+      "options": ["Causing", "That cause", "To cause", "What causes"],
+      "correct": "What causes"
+    },
+    {
+      "text": "The extinct Martian volcano Olympus Mons is approximately three times as _____ Mount Everest.",
+      "options": ["high", "high as is", "higher than", "the highest of"],
+      "correct": "high as is"
+    },
+    {
+      "text": "The flight instructor, _____ at the air base, said that orders not to fight had been given.",
+      "options": ["when interviewed", " when he interviewed", "when his interview", "when interviewing"],
+      "correct": " when interviewed"
+    },
+    {
+      "text": "In the northern and central parts of the state of Idaho _____ and churning rivers.",
+      "options": ["majestic mountains are found", "found majestic mountains", "are found majestic mountains", "finding majestic mountains"],
+      "correct": "are found majestic mountains"
+    },
+    {
+      "text": "Light can travels from the Sun to the Earth in eight minutes and twenty seconds",
+      "options": ["Light", "travels", "in", "seconds"],
+      "correct": "travels"
+    },
+    {
+      "text": "Every human typically have twenty-three pairs of chromosomes in most cells",
+      "options": ["typically", "have", "most", "cells"],
+      "correct": "have"
+    },
+    {
+      "text": "Most sedimentary rocks start forming when grains of clay, silt, or sandy settle in river valleys or on the bottoms of lakes and oceans.",
+      "options": ["Most", "start forming", "sandy", "or on"],
+      "correct": "sandy"
+    },
+    {
+      "text": "The total thickness of the ventricular walls of the heart are about three times that of the atria.",
+      "options": ["walls", "are", "about", "that"],
+      "correct": "are"
+    },
+    {
+      "text": "The type of jazz known as “swing” was introduced by Duke Ellington when he wrote and records “It Don’t Mean a Thing If It Ain’t Got That Swing.”",
+      "options": ["known", "introduced", "he", "records"],
+      "correct": "records"
+    },
+    {
+      "text": "The bones of mammals, not alike those of other vertebrates, show a high degree of differentiation",
+      "options": ["alike", "those", "other", "differentiation"],
+      "correct": "alike"
+    },
+    {
+      "text": "The neocortex has evolved more recently then other layers of the brain.",
+      "options": ["the", "evolved", "then", "other"],
+      "correct": "then"
+    },
+    {
+      "text": "he United States receives a large amount of revenue from taxation of a tobacco products.",
+      "options": ["receives", "amount", "taxation", "of a"],
+      "correct": "receives"
+    },
+    {
+      "text": "Much fats are composed of one molecule of glycerin combined with there molecules of fatty acids",
+      "options": ["Much", "combined with", "fatty", "acids"],
+      "correct": "Much"
+    },
+    {
+      "text": "The capital of the Confederacy was originally in Mobile, but they were moved to Richmond.",
+      "options": ["capital", "originally", "they were", "moved"],
+      "correct": "they were"
+    },
+    {
+      "text": "A pearl develops when a tiny grain of sand or stone or some another irritant accidentally enters into the shell of a pearl oyster.",
+      "options": ["when", "another", "irrtant", "enters into"],
+      "correct": "another"
+    },
+    {
+      "text": "The English horn is an alto oboe with a pitch one-fifth lower than the soprano oboe.",
+      "options": ["an alto", "pitch", "than", "the"],
+      "correct": "the"
+    },
+    {
+      "text": "In the Milky Was galaxy, the most recent observed supernova appeared in 1604.",
+      "options": ["most", "recent", "appeared", "in"],
+      "correct": "recent"
+    },
+    {
+      "text": "Never in the history of humanity has there been more people living on this relatively small planet.",
+      "options": ["humanity", "has", "living", "relatively"],
+      "correct": "has"
+    },
+    {
+      "text": "Because of the mobility of Americans today, it is difficult for they to put down real roots",
+      "options": ["mobility", "difficult", "they", "real roots"],
+      "correct": "they"
+    },
+    {
+      "text": "For five years after the Civil War, Robert E. Lee served to president of Washington Collage, which was later called Washington and Lee.",
+      "options": ["For", "to", "which", "later"],
+      "correct": "to"
+    },
+    {
+      "text": "The number of wild horses on Assateague is increasing lately, resulting in overgrazed marsh and dune grasses",
+      "options": ["number", "is", "resulting", "grasses"],
+      "correct": "is"
+    },
+    {
+      "text": "Hypnoses was successfully used during World War II to treat battle fatigue",
+      "options": ["Hypnoses", "successfully", "during", "battle fatigue"],
+      "correct": "Hypnoses"
+    },
+    {
+      "text": "The lobster, like many crustaceans, can cast off a damaging appendage and regenerate a new appendage to nearly normal size.",
+      "options": ["like", "many", "damaging", "normal"],
+      "correct": "damaging"
+    },
+    {
+      "text": "Humans develop normally twenty primary, or deciduous, teeth and thirty-two permanent ones.",
+      "options": ["develop normally", "primary", "or", "permanent"],
+      "correct": "develop normally"
+    },
+    {
+      "text": "The curricula of American public schools are set in individual states; they do not determine by the federal government.",
+      "options": ["The", "are", "do not determine", "federal"],
+      "correct": "do not determine"
+    },
+    {
+      "text": "The fact that the sophisticated technology has become part of revolution in travel delivery systems has not made travel schedules less hectic.",
+      "options": ["has become", "revolution", "delivery", "less"],
+      "correct": "revolution"
+    },
+    {
+      "text": "Balanchine’s plotless ballets, such Jewels and The Four Temperaments, present dance purely as a celebration of the movement of the human body.",
+      "options": ["plotless", "such", "present", "purely"],
+      "correct": "such"
+    },
+    {
+      "text": "In a solar battery, a photosensitive semiconducting subtance such as silicon crystal is the source of electrician",
+      "options": ["solar battery", "semiconducting", "such as", "electrician"],
+      "correct": "electrician"
+    },
+    {
+      "text": "In early days, hydrochloric acid was done by heating a mixture of sodium chloride with iron sulfate.",
+      "options": ["In early days", "done", "heating", "with"],
+      "correct": "done"
+    }
+    
+  ],
+  "reading": [
+    {
+      "text": "(Question 1-9) John James Audubon, nineteenth-century artist and naturalist, is known as one of the foremost authorities on North American birds, Born in Les Cayes, Haiti, in 1785, Audubon was raised in France and studied art under French artist Jacques-Louis Dvid. After settling on his father’s Pennsylvania estate at the age of eighteen, he first began to study and paint birds. In his young adulthood, Audubon undertook numerous enterprises, generally without a tremendous amount of success; at various times during his life he was involved in a mercantile business, a lumber and grist mill, a taxidermy business, and a school. His general mode of operating a business was to leave it either unattended or in the hands of a partner and take off on excusions through the wilds to paint the natural life that he saw. His business career came to an end in 1819 when he was jailed for debt and forced to life for bankruptcy. It was at that time that Audubon began to seriously pursue the dream of publishing a collection of his paintings of birds. For the next six years he painted birds in their natural habitats while his wife worked as a teacher to support the family. His Birds of America, which included engravings of 435 of his colorful and lifelike watercolors, was published in parts during the period from 1826 to 1819 in England. After the success of the English editions, American editions of his work were published in 1839, and his fame and fortune were ensured. This passage is mainly about ",
+      "options": [" North American birds", "Audubon's route to success as a painter of birds", "the works that Audubon published", "Audubon's preference for travel in natural habitats"],
+      "correct": "Audubon's route to success as a painter of birds"
+    },
+    {
+      "text": "The word ”foremost” in line 1 is closest in meaning to",
+      "options": ["prior", "leading", "first", "largest"],
+      "correct": "leading"
+    },
+    {
+      "text": "In the second paragraph, the author mainly discusses",
+      "options": ["how Audubon developed his painting style", "Audubon's involvement in a mercantile business", "where Audubon went on his excursions", "Audubon's unsuccessful business practices"],
+      "correct": "Audubon's unsuccessful business practices"
+    },
+    {
+      "text": "The word ”mode” in line 7 could best be replaced by",
+      "options": ["method", "vogue", "average", "trend"],
+      "correct": "method"
+    },
+    {
+      "text": "Audubon decided not to continue to pursue business when",
+      "options": ["he was injured in an accident at a grist mill", "he decided to study art in France", "he was put in prison because he owed money", "he made enough money from his paintings"],
+      "correct": "he was put in prison because he owed money"
+    },
+    {
+      "text": "The word ”pursue” in line 11 is closest in meaning to",
+      "options": ["imagine", "share", "follow", "deny"],
+      "correct": "follow"
+    },
+    {
+      "text": "According to the passage, Audubon’s paintings",
+      "options": ["were realistic portryals", "used only black, white, and gray", "were done in oils", "depicted birds in cages"],
+      "correct": "were realistic portryals"
+    },
+    {
+      "text": "The word ”suppoer” in line 13 could best be replaced by",
+      "options": ["tolerate", "provide for", "side with", "fight for"],
+      "correct": "provide for"
+    },
+    {
+      "text": "It can be inferred from the passage that after 1839 Audubon",
+      "options": ["unsuccessfully tried to develp new businesses", "continued to be supported by his wife", "traveled to Europe", "became wealthy"],
+      "correct": "became wealthy"
+    },
+    {
+      "text": "(Question 10-19) These stories of killer bees in the news in recent years have attracted a lot of attention as the bees have made their way from South America to North America. Killer bees are reputed to be extremely aggressive in nature, although experts say that their aggression may been somewhat inflated. The killer bee is a hybrid-or combintion-of the very mild European strain of honeybee and the considerably more aggressive African bee, which was created when the African strain was imported into Brazil in 1955. The African bees were brought into Brazil because their aggression was considered an advantage: they were far more productive than their European counterparts in that they spent a hifher percentage of their time working and continued working longer in inclement weather than did the European bees. These killer bees have been known to attack humans and animals, and some fatalities have occurred. Experts point out, however, that the mixed breed known as the killer bee is actually not at all as aggressive as the pure African bee. They also point out that the attacks have a chemical cause. A killer bee stings only when it has been disturbed bee stings and flies away, it leaves its stinger embedded in the victim. In the vicera attached to the embedded stinger is the chemical isomyl acetate, which has an odor that attracts other bees. As other bees approach the victim of the original sting, the victim tends to panic, thus disturbing other bees and causing them to sting. The new stings create more of the chemical isoamyl acetate, which attracts more bees and increses the panic level of the victim Killer bees tend to travel in large clusters or swarms and thus respond in large numbers to the production of isoamyl acetate. The subject of the preceding paragraph was most likely",
+      "options": ["ways of producing honey", "stries in the media about killer bees", "the chemical nature of killer bee attacks", "the creation of the killer bee"],
+      "correct": "stries in the media about killer bees"
+    },
+    {
+      "text": "The main idea of this passage is that killer bees",
+      "options": ["have been in the news a lot recently", "have been moving unexpectedly rapidly through the Americas", "are not as aggressive as their reputation suggests", "are a hybrid rather than a pure breed"],
+      "correct": "are not as aggressive as their reputation suggests"
+    },
+    {
+      "text": "The word ”inflated” in line 4 could best be replaced by",
+      "options": ["exaggerated", "blown", "aired", "burst"],
+      "correct": "exaggerated"
+    },
+    {
+      "text": "It can be inferred from the passage that the killer bee",
+      "options": ["traveled from Brazil to Africa in 1955", "was a predicessor of the African bee", "was carried from Africa to Brazil in 1955", "did not exis early in the twentieth century"],
+      "correct": "did not exis early in the twentieth century"
+    },
+    {
+      "text": "Why were African bees considered beneficial?",
+      "options": ["They produced an unusual type of honey.", "They spent their time traveling.", "They were very aggressive.", "They hid from inclement weather."],
+      "correct": "They were very aggressive."
+    },
+    {
+      "text": "A ”hybrid” in line 5 is",
+      "options": ["a mixture", "a relative", "a predecessor", "an enemy"],
+      "correct": "a mixture"
+    },
+    {
+      "text": "It is started in the passage that killer bees",
+      "options": ["are more deadly than African bees", "are less aggressive than African bees", "never attack animals", "always attack African bees"],
+      "correct": "are less aggressive than African bees"
+    },
+    {
+      "text": "The pronout ”They” in line 13 refers to",
+      "options": ["Akiller bees", "humans and animals", "fatalities", "experts"],
+      "correct": "experts"
+    },
+    {
+      "text": "What is NOT mentioned in the passage as a contributing factor in an attack by killer bees?",
+      "options": ["Panic by the victim", "An odorous chemical", "Disturbance of the bees", "Inclement"],
+      "correct": "Inclement"
+    },
+    {
+      "text": "Where in the passage does the author describe the size of the groups in which killer bees move?",
+      "options": ["Lines 2-4", "Lines5-7", "Lines 11-12", "Lines 19-20"],
+      "correct": "Lines 19-20"
+    },
+    {
+      "text": "Question (20-28) There is a common expression in the English language referring to a blue moon. When people say that something happens ”only once in a blue moon,” they mean that it happens only very rarely, once in a great while. This expression has been around for at least a century and a half; there are references to this expression that date from the second half of the nineteenth century. The expression ”a blue moon” has come to refer to the second full moon occurring in any given calendar month. A second full moon is not called a blue moon because it is particularly blue or is anydifferent in hue from the first full moon of the month. Instead, it is called a blue moon because it is so rare. The moon needs a little more than 29 days, every month will have at least one full moon (except February, which will have a full moon at the very end of January and another full moon at the very beginning of March). It is on the occasion when a given calendar month has a second full moon that a blue moon occurs. This does not happen very often, only three or four times in a decade. The blue moons of today are called blue moons because of their rarity and not because of their color; however, the expression “blue moon” may have come into existence in reference to unusual circumstances in which the moon actually appeared blue. Certain natural phenomena of gigantic proportions can actually change the appearance of the moon from Earth. The eruption o the krakatao volcano in 1883 left dust particles in the atmosphere, which clouded the sun and gave the moon a bluish tint. This particular occurrence of the blue moon may have given rise to the expression that we use today. Another example occurred more than a century later. When Mount Pinatubo erupted in the Philippines in 1991 , the moon again took on a blue tint. This passage is about",
+      "options": ["an idiomatic expression", "an unusual color", "a month on the calendar", "a phase of the moon."],
+      "correct": "an idiomatic expression"
+    },
+    {
+      "text": "How long has the expression ”once in a blue moon” been around?",
+      "options": ["For around 50 years", "For less than 100 years", "For mote than 100 years", "For 200 years"],
+      "correct": "For mote than 100 years"
+    },
+    {
+      "text": "A blue moon could best be desceibed as",
+      "options": ["a full moon that is not blue in color", "a new moon that is blue in color", "a full moon that is blue in color", "a new moon that is not blue in color"],
+      "correct": "a full moon that is not blue in color"
+    },
+    {
+      "text": "The word ”hue” in line 7 is closest in meaning to",
+      "options": ["shape", "date", "color", "size"],
+      "correct": "color"
+    },
+    {
+      "text": "Which of the following might be the date of a ”blue moon”?",
+      "options": ["Januari 1", "February 28", "April 15", "December 31"],
+      "correct": "December 31"
+    },
+    {
+      "text": "How many blue moons would there most likely be in a century",
+      "options": ["4", "35", "70", "100"],
+      "correct": "35"
+    },
+    {
+      "text": "According to the passage, the moon actually looked blue",
+      "options": ["after large volcanic eruptions", "when it occurred late in the month", "several times a year", "during the month of February"],
+      "correct": "after large volcanic eruptions"
+    },
+    {
+      "text": "The expression ”given rise to” in line 19 could best be replaced by",
+      "options": ["created a need for", "elevated the level of", "spurred the creation of", "brightened the color of"],
+      "correct": "spurred the creation of"
+    },
+    {
+      "text": "Where in the passage does the author describe the duration of lunay cycle?",
+      "options": ["Lines 1-3", "Lines 5-6", "Lines 8", "Lines 12-13"],
+      "correct": "Lines 8"
+    },
+    {
+      "text": "(Questions 29-40) The organization that today is known as the Bank of America did start out in America, but under quite a different name. Italian American A.P. Giannini established this bank on October 17, 1904, in a renovated saloon in San Francisco’s Italian community of Norh Beach under the name Bank of Italy, with immigrans and first-time bank customers comprising the majority of his first customers. During its development, Giannini’s bank survived major crises in the form of a natural disaster and a major economic upheaval that not all other banks were able overcome. One major test for Giannini’s bank occurred on April 18, 1906, when a massive earthquake struck San Francisco, followed by a raging fire that destroued much of the city. Giannini obtained two wagons and teams of horses, filled the wagons with the bank’s reserves, mostly in the form of gold, covered the reserves with crates of oranges, and escaped from the chaos of the city with his clients’ funds protected. In the aftermath of the disaster, Giannini’s bank was the first to resume operations. Unable to install the bank in a proper office setting, Giannini opened up shop on the Washington Street Wharf on a makeshift desk created from boards and barrels. In the period following the 1906 fire, the Bank of Italy continued to prosper an expand. By 1918 ther were twenty-four branches of the Bank of Italy, and by 1928 Giannini had acquired numerous other banks, including a Bank of America located in New York City. In 1930 he consolidated all the branches of the Bank of Italy, the Bank of America in New York City, and another Bank of America that he had formed in Califoria into the Bank of America National Trust and Savings Association. A second major crisis for the bank occurred during the Great Depression of the 1930s. Although Giannini had already retired prior to the darkest days of the Depression, he became incensed when his successor began selling off banks during tha bad economic times. Giannini resumed leadership of the bank at the age of sixty-two. Under Giannini’s leadership, the bank weathered the storm of the Depression and subsequently movedinto a phase of overseas development. According to the passag, Giannini",
+      "options": ["opened the Bank of America in 1904", "worked in a bank in Italy", "set up the Bank of America prior to setting up the Bank of Italy", "later changed the name of the Ban of Italy"],
+      "correct": "later changed the name of the Ban of Italy"
+    },
+    {
+      "text": "Where did Giannini open his first bank?",
+      "options": ["In New York City", "In what used to be a bar", "On Washington Street Wharf", "On a makeshift desk"],
+      "correct": "In what used to be a bar"
+    },
+    {
+      "text": "Acording to the passage, which of the following is NOT true about the San Francisco earthquake?",
+      "options": ["It happened in 1906.", "It occurred in the after math of a fire.", "It caused problems for Giannin's bank.", "It was tremendous earthquake."],
+      "correct": "It occurred in the after math of a fire."
+    },
+    {
+      "text": "The word ”raging” in line 8 could best be replaced by",
+      "options": ["angered", "localized", "intense", "feeble"],
+      "correct": "intense"
+    },
+    {
+      "text": "It can be inferred from the passage that Giannin used crates of oranges after the earthquake",
+      "options": ["Ato hide the gold", "to fill up the wagons", "to provide nourishment for his customers", "to protect the gold from the fire"],
+      "correct": "to hide the gold"
+    },
+    {
+      "text": "The word ”chaos” in line 10 is closest in meaning to",
+      "options": ["legal system", "extreme heat", "overdevelopment", "Dtotal confusion"],
+      "correct": "total confusion"
+    },
+    {
+      "text": "The word ”consolidated” in line 17 is closest in meaning to",
+      "options": ["hardened", "merged", "moved", "sold"],
+      "correct": "merged"
+    },
+    {
+      "text": "The passage states that after his retirement, Giannini",
+      "options": ["began selling off banks", "caused evonomic misfortune to occur", "supported the bank's new management", "returned to work"],
+      "correct": "returned to work"
+    },
+    {
+      "text": "The expression ”weathered the storm of” in line 23 could best be replaced by",
+      "options": ["found a cure for", "rained on the parade of", "survived the ordeal of", "blew its stack at"],
+      "correct": "survived the ordeal of"
+    },
+    {
+      "text": "Where in the passage does the author describe Giannini’s first banking clients?",
+      "options": ["Lines 2-5", "Lines 7-8", "Lines 12-13", "Lines 14-16"],
+      "correct": "Lines 2-5"
+    },
+    {
+      "text": "How is the information in the passage presented?",
+      "options": ["In chronological order", "In order of importance", "A cause followed by an effect", "Classifications with examples"],
+      "correct": "In chronological order"
+    },
+    {
+      "text": "The paragraph folllowing the passage most likely discusses",
+      "options": ["bank failures during the Great Depression", "a third major crisis of the Bank of America", "the international development of the Bank of America", "how Giannini spent his retirement"],
+      "correct": "the international development of the Bank of America"
+    }
+  ]
+}

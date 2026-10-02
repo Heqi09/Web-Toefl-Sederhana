@@ -1,0 +1,297 @@
+:root {
+  --primary-color: #097292;
+  --secondary-color: #f4f6f8;
+  --text-color: #090909;
+  --border-radius: 8px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(toefl-reading-practice.png);
+  background-size: cover; 
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  transition: background-color 0.3s;
+}
+
+nav button:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 100px;
+  margin: 100px auto;
+  padding: 0 30px;
+  max-width: 1200px;
+  flex-wrap: nowrap; 
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 15px;
+  flex: 1;
+  min-width: 350px;
+  max-width: 360px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.info-card h3 {
+  color: #007396;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.info-card p {
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+section {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 16px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #203c55;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+#question-section {
+  margin-top: 20px;
+}
+
+#question-type-number {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#question-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#answer-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#answer-options li {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  transition: all 0.2s;
+  border: 1px solid #ddd;
+}
+
+#answer-options li:hover {
+  background-color: #f5f5f5;
+  border-color: var(--primary-color);
+}
+
+#answer-options input[type="radio"] {
+  margin-right: 15px;
+  transform: scale(1.2);
+}
+
+#answer-options label {
+  cursor: pointer;
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+#timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+#audio-container {
+  margin-bottom: 20px;
+}
+
+#score-section {
+  text-align: center;
+  padding: 30px;
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.hidden {
+  display: none;
+}
+
+#test-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 10px;
+}
+
+#test-table thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#test-table th,
+#test-table td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+#test-table tbody tr:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+#test-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.aksi-btn {
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin: 0 4px;
+  transition: background-color 0.2s;
+}
+
+.btn-cetak {
+  background-color: rgb(11, 199, 11);
+  color: white;
+}
+
+.btn-cetak:hover {
+  background-color: rgb(6, 171, 6);
+}
+
+.btn-hapus {
+  background-color: red;
+  color: white;
+}
+
+.btn-hapus:hover {
+  background-color: rgb(181, 7, 7);
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-bottom: 5px;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
